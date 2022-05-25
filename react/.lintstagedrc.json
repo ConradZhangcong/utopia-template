@@ -1,0 +1,4 @@
+{
+  "**/*.{js,jsx,tsx,ts,json}": ["npm run lint:script", "git add --force"],
+  "**/*.{css,scss}": ["npm run lint:style", "git add --force"]
+}
